@@ -7,6 +7,7 @@ fake_users_db = {
         "email": "johndoe@example.com",
         "hashed_password": generate_password_hash("secret"),
         "disabled": False,
+        "is_admin": True,
     },
     "alice": {
         "username": "alice",
@@ -14,5 +15,6 @@ fake_users_db = {
         "email": "alice@example.com",
         "hashed_password":  generate_password_hash("secret2"),
         "disabled": True,
+        "is_admin": False,
     },
 }
